@@ -1,3 +1,4 @@
-Видео файлы прямо в GitHub
-[1.mp4] - основной
-[2.mp4] - кое-что забыл добавить
+
+[Video]<https://github.com/VoidTt/ADO.NETStudentsTable/releases/tag/Video> - основной
+
+во 2м видео. я кое что забыл добавить
