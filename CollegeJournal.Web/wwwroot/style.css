@@ -1,0 +1,23 @@
+/* Небольшое оформление: обычные таблицы и стандартные элементы формы. */
+body { font: 16px Arial, sans-serif; color: #252525; background: #f6f6f3; margin: 0 auto; max-width: 1050px; padding: 20px; }
+h2 { font-size: 21px; margin-top: 0; }
+.hint { color: #555; }
+section { background: white; border: 1px solid #ddd; padding: 18px; margin: 18px 0; }
+.toolbar, .fields { display: flex; flex-wrap: wrap; gap: 12px; align-items: end; margin-bottom: 12px; }
+label { display: flex; flex-direction: column; gap: 5px; }
+input, select, button { font: inherit; padding: 5px 8px; }
+input, select { max-width: 100%; box-sizing: border-box; }
+button { cursor: pointer; }
+button:disabled { cursor: wait; }
+td button { margin: 2px 6px 2px 0; }
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid #ccc; padding: 9px; text-align: left; overflow-wrap: anywhere; }
+th { background: #eef1eb; }
+.table-wrap { overflow-x: auto; }
+#message { min-height: 24px; white-space: pre-wrap; }
+#message:empty { display: none; }
+#message.error { color: #a02020; }
+#message.success { color: #265b32; }
+.hint { font-size: 14px; }
+:focus-visible { outline: 2px solid #32644a; outline-offset: 2px; }
+@media (max-width: 550px) { body { padding: 10px; } section { padding: 12px; } .fields label { width: 100%; } }
